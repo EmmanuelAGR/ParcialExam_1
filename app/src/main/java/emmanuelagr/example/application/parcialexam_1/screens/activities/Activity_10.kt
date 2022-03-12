@@ -69,7 +69,7 @@ fun Activity_10(
             modifier = Modifier.fillMaxWidth()
         ) {
             Button(onClick = { enabled = true }, enabled = !enabled) {
-                Text(text = if(enabled) "Sacada" else "Sacar bola")
+                Text(text = if (enabled) "Sacada" else "Sacar bola")
             }
 
             Row(horizontalArrangement = Arrangement.Center, modifier = Modifier.weight(1F)) {
